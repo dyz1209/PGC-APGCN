@@ -22,9 +22,9 @@ The project is modular and consists of the following four main files:
 
 - **`config.py`**: Stores global configuration constants (such as `FILE_PATH`, `EPOCHS`, `LEARNING_RATE`, etc.) and memory monitoring tools.
 - **`features.py`**: Feature engineering module that handles data loading, time-series segmentation, normalization, and PCA dimensionality reduction based on variance contribution.
-- **`graph_model.py`**: Core model that includes the construction of K-NN graphs by class, feature pre-enhancement of neighbors, and the definition of a two-layer GCN model.
+- **`graph_model.py`**: Core model that includesPerceptive Graph Construction (PGC) and Adaptive Pruning Graph Convolutional Network (AP-GCN).
 - **`main.py`**: Execution and training module that coordinates all other modules, defines the training loop, early stopping mechanism, and final evaluation.
-- **`gearset20_0.csv`**: Dataset file (required).
+- **`gearset20_0.csv`**: Dataset file .
 
 ## Usage
 
