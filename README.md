@@ -1,4 +1,4 @@
-# PGC-APGCN
+# PGC-APGCN : Gearbox fault diagnosis method
 ## Overview
 The project code for fault diagnosis of wind turbine gearbox using perception graph construction and adaptive pruning graph convolutional network is designed with a modular structure, which facilitates maintenance and expansion. In this section, we demonstrate the performance of this method using the publicly available SEU 20-0 dataset. Due to privacy and security concerns, the data from the Tianqiaoshan wind farm cannot be disclosed here.
 
@@ -18,7 +18,7 @@ This project requires the following Python libraries. Please ensure they are ins
 
 
 ## Project Structure
-The project is modular and consists of the following four main files:
+The project is modular and consists of the following four main files：
 
 - **`config.py`**: Stores global configuration constants (such as `FILE_PATH`, `EPOCHS`, `LEARNING_RATE`, etc.) and memory monitoring tools.
 - **`features.py`**: Feature engineering module that handles data loading, time-series segmentation, normalization, and PCA dimensionality reduction based on variance contribution.
