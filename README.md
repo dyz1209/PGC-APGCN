@@ -29,7 +29,7 @@ The project is modular and consists of the following four main files:
 ## Usage
 
 1. **Data Preparation**: Name the time-series dataset file `gearset20_0.csv` and place it in the root directory of the project.
-2. **Configuration Check**: Check and modify parameters in `config.py` as needed, especially `EPOCHS` (set to 200 to match early stopping) and `STEP_LENGTH` (set to 1024).
+2. **Configuration Check**: Check and modify parameters in `config.py` as needed, especially `EPOCHS` (set to 300 to match early stopping) and `STEP_LENGTH` (set to 1024).
 3. **Run the Project**: After activating the virtual environment in the terminal, run the main execution file:
    ```bash
    python main.py
