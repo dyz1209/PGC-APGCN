@@ -7,7 +7,7 @@ from matplotlib import rcParams
 FILE_PATH = 'gearset20_0.csv'
 STEP_LENGTH = 1024
 KNN_K = 5
-EPOCHS = 200
+EPOCHS = 300
 LEARNING_RATE = 0.01
 
 # --- Utility Tools ---
