@@ -1,6 +1,6 @@
 # PGC-APGCN
 ## Overview
-This project implements a time-series fault diagnosis process based on Graph Convolutional Networks (GCN). By splitting time-series data into nodes, constructing a K-Nearest Neighbors (K-NN) graph, and using GCN to classify the nodes, the system identifies equipment fault types. The project code is modular, making it easy to maintain and expand.
+The project code for fault diagnosis of wind turbine gearbox using perception graph construction and adaptive pruning graph convolutional network is designed with a modular structure, which facilitates maintenance and expansion. In this section, we demonstrate the performance of this method using the publicly available SEU 20-0 dataset. Due to privacy and security concerns, the data from the Tianqiaoshan wind farm cannot be disclosed here.
 
 ## Prerequisites
 This project requires the following Python libraries. Please ensure they are installed in your virtual environment:
@@ -16,7 +16,6 @@ This project requires the following Python libraries. Please ensure they are ins
 | `seaborn`         | 0.13.2               | Confusion matrix visualization | `pip install seaborn==0.13.2`     |
 | `psutil`          | 7.1.0                | Memory monitoring             | `pip install psutil==7.1.0`       |
 
-> **Note**: The installation of `torch-geometric` (PyG) must be compatible with your PyTorch version and the underlying CUDA (GPU) environment.
 
 ## Project Structure
 The project is modular and consists of the following four main files:
